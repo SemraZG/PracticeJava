@@ -1,10 +1,9 @@
 package practice03;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Arrays1 {
+public class Arrays01 {
     public static void main(String[] args) {
     /*
         3 elemanlı bir array olusturunuz(int)

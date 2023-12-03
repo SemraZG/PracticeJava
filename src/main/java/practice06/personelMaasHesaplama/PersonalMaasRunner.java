@@ -1,6 +1,6 @@
 package practice06.personelMaasHesaplama;
 
-public class PersonalMaas {
+public class PersonalMaasRunner {
      /*
     Bir sirketin muhasebe departmanı calısanlarin maaslarini hesaplıyor.
     Muhasebe departmanı maas için su kriterlere bakıyor:
@@ -20,5 +20,18 @@ public class PersonalMaas {
     Bu kriterlere gore interface kullanarak calısanların net maasını hesaplayan kodu yazınız
 
      */
+     public static void main(String[] args) {
+         Memur memur=new Memur();
+         System.out.println(memur.ekMesai(150));//300.0
+         System.out.println(memur.vergi(2000, 11));//600.0
+
+         double memurMaas= memur.netMaas(2000, 150, 11);
+         System.out.println(memurMaas);
+
+
+         Isci isci=new Isci();
+         double isciMaas=isci.netMaas(1700,180,8);
+         System.out.println(isciMaas);
+     }
 
 }

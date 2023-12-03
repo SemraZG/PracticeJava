@@ -1,6 +1,6 @@
 package practice06;
 
-public class Encapsulation02Runner {
+public class Encapsulation01Runner {
     public static void main(String[] args) {
         //Ali, Can, 25 ozelliklerine sahip bir obje olusturunuzz ve yazdırınız
         Encapsulation01 e1=new Encapsulation01("Ali","Can",25);//parametreli constructor sayesinde direk objenin icine yazdik
@@ -27,7 +27,6 @@ public class Encapsulation02Runner {
 
         //yas negatif deger alamayacak sekilde set methodunu guncelleyin--setYas methodu
         //isim kucuk harfle baslamayacak sekilde set methodunu guncelleyin
-
         //isim kucuk harfle baslamayacak sekilde parametreli constructoru guncelleyin
     }
 }
